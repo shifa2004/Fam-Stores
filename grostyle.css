@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.material-symbol-outlined{
+   width: 5px;
+   height: 5px;
+}
+.container-groc{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+}
+.flour{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+
+.flour img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.sugar{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.sugar img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+   
+    
+}
+
+.masala{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.masala img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.grains{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.grains img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.flour:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.sugar:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.masala:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.grains:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.gros{
+    height: 50px;
+    background-color: bisque;
+}
+.rupee{
+    display: flex;
+}

@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.material-symbol-outlined{
+   width: 5px;
+   height: 5px;
+}
+.fa{
+    height: 50px;
+    background-color: bisque;
+    
+    
+}
+.container-Fashion{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.men{
+    height: 300px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+
+.men img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.women{
+    height: 300px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.women img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+   
+    
+}
+
+.kid{
+    height: 300px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.kid img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.shoe{
+    height: 300px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.shoe img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+
+.jeweller{
+    height: 300px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.jeweller img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.men:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.women:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.kid:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.shoe:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.jeweller:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+.rupee{
+    display: flex;
+}
+span{
+   text-size-adjust: 10px;
+}

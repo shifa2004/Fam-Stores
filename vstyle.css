@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.material-symbol-outlined{
+   width: 5px;
+   height: 5px;
+}
+.container-veg{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+}
+.tomato{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+
+.tomato img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.brinjal{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.brinjal img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+   
+    
+}
+
+.carrot{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.carrot img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.cauliflower{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.cauliflower img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.tomato:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.carrot:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.brinjal:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.cauliflower:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.vg{
+    height: 50px;
+    background-color: bisque;
+}
+.rupee{
+    display: flex;
+}

@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+    
+}
+
+
+/* Nav Bar */
+
+.navcontainer{
+    height: 75px;
+    width: 100%;
+    /* background-color: #85FFBD; */
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);   
+}
+
+#navlist{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content:space-between;
+    
+}
+#imglogo{
+    font-size: 2.2rem;
+    margin-top: 10px;
+    color: brown;
+    font-family: 'Monoton';
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#navlink{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+   gap: 40px;
+}
+.srh{
+    display: flex;
+    margin-top: 15px;
+   
+}
+
+input{
+    border-radius: 12px;
+    border: none;
+    width: 300px;
+}
+.btn{
+    background-color: white;
+    border: none;
+    margin-left: -30px;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color:rgb(201, 62, 62)
+}
+
+/* Nav Bar  complete*/
+
+
+
+.h12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(225, 40, 40, 0.685);
+    margin-top: 2%;
+    
+}
+
+/* list items */
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    color: rgba(225, 40, 40, 0.685);
+}
+
+.contentbox{
+    width: 100%;
+   height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card1{
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 1s;
+}
+.card1 img{
+    height: 200px;
+    width: 298px;
+    border-radius: 10px;
+}
+.card1 h2{
+    text-align: center;
+    color: rgb(204, 53, 53);
+}
+ .card1 ul{
+    margin-left: 100px;
+    margin-top: 0px;
+    text-decoration: none;
+    
+}
+
+.card2{
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 1s;
+}
+.card2 img{
+    height: 200px;
+    width: 298px;
+    border-radius: 10px;
+}
+.card2 h2{
+    text-align: center;
+    color: rgb(204, 53, 53);
+}
+ .card2 ul{
+    margin-left: 100px;
+    margin-top: 0px;
+    text-decoration: none;
+    
+}
+.card3{
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 1s;
+}
+.card3 img{
+    height: 200px;
+    width: 298px;
+    border-radius: 10px;
+   
+}
+.card3 h2{
+    text-align: center;
+    color: rgb(204, 53, 53);
+}
+ .card3 ul{
+    margin-left: 100px;
+    margin-top: 0px;
+    text-decoration: none;
+    
+}
+
+.card4{
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 1s;
+}
+.card4 img{
+    height: 200px;
+    width: 298px;
+    border-radius: 10px;
+    
+   
+}
+.card4 h2{
+    text-align: center;
+    color: rgb(204, 53, 53);
+}
+ .card4 ul{
+    margin-left: 100px;
+    margin-top: 0px;
+    text-decoration: none;
+    
+}
+ /* list items complete*/
+
+ /* About Store */
+  .container2{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #b8dbf3a8;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  }
+  .us img{
+     transition: 1s;
+  }
+
+
+  #ab{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFB7D;
+    font-style: oblique;
+  }
+ 
+  #para1{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+  }
+  /* About Store complete */
+
+ /* contact us */
+ .container3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(246, 238, 227, 0.574);
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+ }
+
+ .address{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+   padding-top: 5px;
+   padding-left: 10px;
+    background-color: aqua;
+    transition: 1s;
+    text-align: center;
+ }
+ .num{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: aqua;
+    padding-top: 5px;
+   padding-left: 10px;
+   transition: 1s;
+   text-align: center;
+ }
+ .email{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: aqua;
+    padding-top: 5px;
+   padding-left: 10px;
+   transition: 1s;
+   text-align: center;
+ }
+
+ .contact-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 11%;
+    margin-bottom: 10%;
+    align-items: center;
+ }
+
+ .form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+ }
+  
+ #name {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    padding: 10px;
+ }
+
+ .email-form {
+    margin-bottom: 25px;
+ }
+
+ .footerbox{
+    width: 100vw;
+    
+    color:rgb(31, 25, 25);
+    background-color:#85FFBD;
+    text-align: center;
+    min-height: 40px;
+}
+.footerbox p{
+    color: rgb(237, 63, 63);
+    font-size: 2rem;
+}
+
+/* contact us complete */
+ 
+ /* Hover */
+
+ .card4:hover{
+    background-color: #b1ffd5;
+    transform: scale(1.1);
+  }
+  .card3:hover{
+    background-color: #b1ffd5;
+    transform: scale(1.1);
+  }
+  .card2:hover{
+    background-color: #b1ffd5;
+    transform: scale(1.1);
+  }
+  .card1:hover{
+    background-color: #b1ffd5;
+    transform: scale(1.1);
+  }
+  .us img:hover{
+    transform: scale(1.5);
+ }
+
+ .address:hover{
+    transform: scale(1.1);
+    background-color:#85FFBD;
+ }
+ .num:hover{
+    transform: scale(1.1);
+    background-color:#85FFBD;
+
+ }
+ .email:hover{
+    transform: scale(1.1);
+    background-color:#85FFBD;
+ }
+
+ /* Hover complete */
+
+  /* media queries */
+@media(max-width:1027px){
+    #imglogo{
+        font-size: 1.2rem;
+    }
+
+}
+@media(max-width:930px){
+    a{
+       font-size: 1rem;
+       
+    }
+}
+@media(max-width:692px){
+    #navlink{
+       flex-direction: column;
+       row-gap: 1px;       
+    }
+    input{
+        width: 150px;
+    }
+}
+
+ /* media queries complete */

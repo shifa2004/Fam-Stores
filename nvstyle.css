@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.material-symbol-outlined{
+   width: 5px;
+   height: 5px;
+}
+.nv{
+    height: 50px;
+    background-color: bisque;
+    
+    
+}
+.container-nonveg{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mutton{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+
+.mutton img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.chicken{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.chicken img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+   
+    
+}
+
+.fish{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.fish img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.prawns{
+    height: 350px;
+width: 300px;
+margin: 20px;
+background-color: white;
+border: 1px solid black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+transition: 1s;
+cursor: pointer;
+filter: grayscale(90%);
+}
+.prawns img{
+    height: 200px;
+    width: 299px;
+    border-radius: 10px;
+    
+}
+.mutton:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.chicken:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.fish:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.prawns:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+.rupee{
+    display: flex;
+}
